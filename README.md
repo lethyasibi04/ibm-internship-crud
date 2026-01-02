@@ -9,8 +9,13 @@ This project is a simple full-stack CRUD application developed as part of the IB
 - JavaScript
 
 ## Project Structure
-- **backend**: Server-side logic using Express
-- **frontend**: Client-side HTML and JavaScript
+ibm-crud-app/
+├── backend/       # Express server and API routes
+├── frontend/      # HTML, CSS, JS files
+├── node_modules/  # Node.js dependencies
+├── package.json   # Project metadata and dependencies
+├── package-lock.json
+└── README.md
 
 ## Features
 - Add student details
@@ -19,6 +24,7 @@ This project is a simple full-stack CRUD application developed as part of the IB
 - Delete student records
 
 ## How to Run the Project
-1. Install dependencies using:
+
+1. Install dependencies:
 ```bash
 npm install
