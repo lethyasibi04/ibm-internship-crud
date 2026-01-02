@@ -9,20 +9,16 @@ This project is a simple full-stack CRUD application developed as part of the IB
 - JavaScript
 
 ## Project Structure
-- backend: Server-side logic using Express
-- frontend: Client-side HTML and JavaScript
+- **backend**: Server-side logic using Express
+- **frontend**: Client-side HTML and JavaScript
 
 ## Features
 - Add student details
 - View student list
+- Update student records
 - Delete student records
 
 ## How to Run the Project
 1. Install dependencies using:
-   npm install
-2. Start the backend server:
-   node backend/server.js
-3. Open frontend/index.html in browser
-
-## Output
-The application allows users to perform basic CRUD operations on student data.
+```bash
+npm install
