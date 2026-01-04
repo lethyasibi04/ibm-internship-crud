@@ -1,14 +1,15 @@
 {
   "name": "ibm-crud-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a simple full-stack CRUD application developed as part of the IBM Internship assignment.",
   "keywords": [],
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^2.2.1",
@@ -18,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lethyasibi04/ibm-internship-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lethyasibi04/ibm-internship-crud/issues"
+  },
+  "homepage": "https://github.com/lethyasibi04/ibm-internship-crud#readme"
 }
