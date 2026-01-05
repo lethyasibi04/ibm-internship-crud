@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student CRUD Application</title>
+</head>
+<body>
+
+  <h1>Student CRUD Application</h1>
+
+  <input type="text" id="name" placeholder="Name">
+  <input type="text" id="roll" placeholder="Roll Number">
+  <input type="text" id="department" placeholder="Department">
+  <input type="number" id="age" placeholder="Age">
+
+  <button onclick="addStudent()">Add Student</button>
+
+  <hr>
+  <h2>Student List</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Roll</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Age</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="studentList">
+      <!-- Students will appear here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
